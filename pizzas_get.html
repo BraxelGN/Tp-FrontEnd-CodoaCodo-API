@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <title>Listado de Pizzas</title>
+</head>
+
+<body>
+    <main class="container">
+
+        <div>
+            <a href="index.html" role="button">Volver al menú</a>
+        </div>
+
+        <br />
+
+        <div>
+            <h1>Listado de Pizzas</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col">Id</th>
+                        <th scope="col">Nombre</th>
+                        <th scope="col">Tamaño</th>
+                        <th scope="col">Toppings</th>
+                        <th scope="col" colspan="2">Acciones</th>
+                    </tr>
+                </thead>
+                <tbody id="pizzas">
+                    <!-- Contenido generado dinámicamente por JavaScript -->
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <script src="js\pizza_get.js"></script>
+</body>
+
+</html>

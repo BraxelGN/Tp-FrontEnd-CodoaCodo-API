@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alta de Pizzas</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+</head>
+
+<body>
+    <main class="container">
+
+        <div>
+            <a href="index.html" role="button">Volver al menú</a>
+        </div>
+
+        <br />
+        <div>
+            <h1>Alta de Pizzas</h1>
+
+            <form id="formulario" method="post">
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" id="nombre" required>
+
+                <label for="tamaño">Tamaño</label>
+                <input type="text" name="tamaño" id="tamaño" required>
+
+                <label for="toppings">Toppings</label>
+                <input type="text" name="toppings" id="toppings" required>
+
+                <button type="submit">Enviar</button>
+                <button type="reset" class="secondary">Limpiar</button>
+
+            </form>
+        </div>
+    </main>
+
+    <script src="js\pizzas_post.js"></script>
+
+</body>
+
+</html>

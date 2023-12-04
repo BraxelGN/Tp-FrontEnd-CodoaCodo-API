@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modificación de Empanada</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+</head>
+
+<body>
+    <main class="container">
+
+        <div>
+            <a href="index.html" role="button">Volver al menú</a>
+        </div>
+
+        <br />
+        <div>
+            <h1>Modificación de Empanada</h1>
+
+            <form id="formulario" method="post">
+                <label for="id">ID</label>
+                <input type="text" name="id" id="id" readonly disabled>
+
+                <label for="coccion">Cocción</label>
+                <input type="text" name="coccion" id="coccion" required>
+
+                <label for="ingredientes">Ingredientes</label>
+                <input type="text" name="ingredientes" id="ingredientes" required>
+
+                <button type="submit">Enviar</button>
+                <button type="reset" class="secondary">Limpiar</button>
+
+            </form>
+        </div>
+    </main>
+
+    <script src="./js/empanadas_put.js"></script>
+
+</body>
+
+</html>
