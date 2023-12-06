@@ -10,7 +10,7 @@ fetch(URL + '/pizzas/' + id)
         console.log(data);
         document.getElementById('id').value = data.id;
         document.getElementById('nombre').value = data.nombre;
-        document.getElementById('tamaño').value = data.tamaño;
+        document.getElementById('tamanio').value = data.tamaño;
         document.getElementById('toppings').value = data.toppings.join(', '); // Convertir toppings a una cadena separada por comas
     });
 
@@ -24,7 +24,7 @@ formulario.addEventListener('submit', e => {
     const pizzaData = {
         id: formData.get('id'),
         nombre: formData.get('nombre'),
-        tamaño: formData.get('tamaño'),
+        tamaño: formData.get('tamanio'),
         toppings: formData.get('toppings').split(', ').map(topping => topping.trim()) // Convertir la cadena de toppings a un array
     };
 
