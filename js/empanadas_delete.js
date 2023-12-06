@@ -1,4 +1,4 @@
-const URL = "http://localhost:5000";
+const URL = "https://braxelgn.pythonanywhere.com/";
 
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
