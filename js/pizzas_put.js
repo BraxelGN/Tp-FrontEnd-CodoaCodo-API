@@ -10,7 +10,7 @@ fetch(URL + '/pizzas/' + id)
         console.log(data);
         document.getElementById('id').value = data.id;
         document.getElementById('nombre').value = data.nombre;
-        document.getElementById('tamanio').value = data.tamaño;
+        document.getElementById('tamanio').value = data.tamanio;
         document.getElementById('toppings').value = data.toppings.join(', '); // Convertir toppings a una cadena separada por comas
     });
 
