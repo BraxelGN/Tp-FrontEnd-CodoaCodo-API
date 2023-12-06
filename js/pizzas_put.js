@@ -1,4 +1,4 @@
-const URL = "http://localhost:5000"; // Ajusta el puerto según el puerto de tu servidor Flask
+const URL = "https://braxelgn.pythonanywhere.com/"; // Ajusta el puerto según el puerto de tu servidor Flask
 
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
