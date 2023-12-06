@@ -1,4 +1,4 @@
-const URL = "http://localhost:5000";
+const URL = "https://braxelgn.pythonanywhere.com/";
 const documento = document.getElementById('formulario');
 
 documento.addEventListener('submit', e => {
