@@ -1,4 +1,4 @@
-const URL = "http://localhost:5000";
+const URL = "https://braxelgn.pythonanywhere.com/";
 
 fetch(URL + '/empanadas') // Obtener las empanadas
     .then(res => res.json()) // Convertir la respuesta a JSON
