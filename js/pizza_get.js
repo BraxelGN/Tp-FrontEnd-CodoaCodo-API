@@ -9,7 +9,7 @@ fetch(URL + '/pizzas') // Obtener las pizzas
             html += `<tr>
                 <td>${pizza.id}</td>
                 <td>${pizza.nombre}</td>
-                <td>${pizza.tamaño}</td>
+                <td>${pizza.tamanio}</td>
                 <td>${JSON.stringify(pizza.toppings)}</td>
                 <td><a href="pizzas_put.html?id=${pizza.id}">Modificar</a></td>
                 <td><button class="alert" onclick="eliminarPizza(${pizza.id});">Eliminar</button></td>
